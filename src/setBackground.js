@@ -2,7 +2,7 @@ export default function setBackground(weather) {
     switch (weather) {
         case 'Sunny':
         case 'Clear':
-            return "'./src/backgrounds/anime-sunnyday.gif'";
+            return "'./images/anime-sunnyday.gif'";
         case 'Light rain':
         case 'Patchy rain possible':
         case 'Patchy freezing drizzle possible':
@@ -21,7 +21,7 @@ export default function setBackground(weather) {
         case 'Torrential rain shower':
         case 'Patchy light rain with thunder':
         case 'Moderate or heavy rain with thunder':
-            return "'./src/backgrounds/anime-rain.gif'"
+            return "'./images/anime-rain.gif'"
         case 'Patchy snow possible':
         case 'Blowing snow':
         case 'Blizzard':
@@ -35,8 +35,8 @@ export default function setBackground(weather) {
         case 'Moderate or heavy snow showers':
         case 'Patchy light snow with thunder':
         case 'Moderate or heavy snow with thunder':
-            return "'./src/backgrounds/anime-snow.gif'"
+            return "'./images/anime-snow.gif'"
         default:
-            return "'./src/backgrounds/anime-default.gif'"
+            return "'./images/anime-default.gif'"
     }
 }

@@ -69,8 +69,8 @@ async function createWeeklySpace(location) {
             day.textContent = days[new Date(data.date).getDay()]
         }
         const img = document.createElement('img')
-        const imgSource = data.icon.slice(34)
-        img.src = `./src/weather/64x64/${imgSource}`
+        const imgSource = data.icon.slice(39)
+        img.src = `./images//${imgSource}`
         const temp = document.createElement('p')
         temp.textContent = `H:${Math.round(data.maxCelcius)}°  L:${Math.round(data.minCelcius)}°`
         const chanceOfRain = document.createElement('p')
