@@ -1,7 +1,5 @@
 import fetchData from "./fetchData"
 import setBackground from "./setBackground"
-import '../backgrounds/*'
-import '../weather/*'
 
 function createSearchSpace() {
     const search = document.createElement('div')
